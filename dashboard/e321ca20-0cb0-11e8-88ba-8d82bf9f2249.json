@@ -1,0 +1,19 @@
+[
+  {
+    "_id": "e321ca20-0cb0-11e8-88ba-8d82bf9f2249",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Netflow: Flow Records",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"gridData\":{\"h\":2,\"i\":\"2\",\"w\":9,\"x\":3,\"y\":2},\"id\":\"6a7e4790-2fe0-11e7-9d02-3f49bde5c1d5\",\"panelIndex\":\"2\",\"type\":\"visualization\",\"version\":\"6.1.1\"},{\"gridData\":{\"h\":2,\"i\":\"3\",\"w\":3,\"x\":0,\"y\":2},\"id\":\"bbac23d0-2fe0-11e7-9d02-3f49bde5c1d5\",\"panelIndex\":\"3\",\"type\":\"visualization\",\"version\":\"6.1.1\"},{\"gridData\":{\"h\":2,\"i\":\"4\",\"w\":12,\"x\":0,\"y\":0},\"id\":\"26e166f0-2fe2-11e7-9d02-3f49bde5c1d5\",\"panelIndex\":\"4\",\"type\":\"visualization\",\"version\":\"6.1.1\"},{\"columns\":[\"netflow.src_addr\",\"netflow.src_port\",\"netflow.dst_addr\",\"netflow.dst_port\",\"netflow.application\",\"netflow.bytes\",\"netflow.packets\"],\"gridData\":{\"h\":4,\"i\":\"5\",\"w\":12,\"x\":0,\"y\":4},\"id\":\"0d0216f0-2fe0-11e7-9d02-3f49bde5c1d5\",\"panelIndex\":\"5\",\"sort\":[\"@timestamp\",\"desc\"],\"type\":\"search\",\"version\":\"6.1.1\"}]",
+      "optionsJSON": "{\"darkTheme\":false,\"useMargins\":false}",
+      "uiStateJSON": "{\"P-3\":{\"vis\":{\"defaultColors\":{\"0 - 100\":\"rgb(0,104,55)\"}}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[],\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"default_field\":\"*\",\"query\":\"*\"}}}}"
+      }
+    }
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "_id": "b09e1e50-0cb0-11e8-88ba-8d82bf9f2249",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Netflow: Conversation Partners",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"panelIndex\":\"1\",\"gridData\":{\"x\":0,\"y\":4,\"w\":12,\"h\":5,\"i\":\"1\"},\"id\":\"a7a47e70-2fde-11e7-9d02-3f49bde5c1d5\",\"type\":\"visualization\",\"version\":\"6.1.1\"},{\"panelIndex\":\"2\",\"gridData\":{\"x\":8,\"y\":2,\"w\":4,\"h\":2,\"i\":\"2\"},\"id\":\"de9da770-2fcb-11e7-8df8-b363df28ab61\",\"type\":\"visualization\",\"version\":\"6.1.1\"},{\"panelIndex\":\"3\",\"gridData\":{\"x\":0,\"y\":2,\"w\":4,\"h\":2,\"i\":\"3\"},\"id\":\"4440e130-2fdd-11e7-afd7-595689f3f18c\",\"type\":\"visualization\",\"version\":\"6.1.1\"},{\"panelIndex\":\"4\",\"gridData\":{\"x\":4,\"y\":2,\"w\":4,\"h\":2,\"i\":\"4\"},\"id\":\"4898db90-2fdb-11e7-84e6-333bd21ad9fd\",\"type\":\"visualization\",\"version\":\"6.1.1\"},{\"panelIndex\":\"5\",\"gridData\":{\"x\":0,\"y\":0,\"w\":12,\"h\":2,\"i\":\"5\"},\"id\":\"26e166f0-2fe2-11e7-9d02-3f49bde5c1d5\",\"type\":\"visualization\",\"version\":\"6.1.1\"}]",
+      "optionsJSON": "{\"darkTheme\":false,\"useMargins\":false}",
+      "uiStateJSON": "{\"P-1\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":2,\"direction\":\"desc\"}}}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[],\"highlightAll\":true,\"version\":true,\"query\":{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\",\"default_field\":\"*\"}},\"language\":\"lucene\"}}"
+      }
+    }
+  }
+]

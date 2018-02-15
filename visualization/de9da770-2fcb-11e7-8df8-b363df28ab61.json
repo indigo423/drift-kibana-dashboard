@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "de9da770-2fcb-11e7-8df8-b363df28ab61",
+    "_type": "visualization",
+    "_source": {
+      "title": "Netflow: IP Version and Protocols (bytes)",
+      "visState": "{\"title\":\"Netflow: IP Version and Protocols (bytes)\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"netflow.bytes\",\"customLabel\":\"Bytes\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"netflow.ip_protocol_version\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"IP Version\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"netflow.protocol\",\"size\":50,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Protocol\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"660dcaa0-0c35-11e8-88ba-8d82bf9f2249\",\"query\":{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    }
+  }
+]

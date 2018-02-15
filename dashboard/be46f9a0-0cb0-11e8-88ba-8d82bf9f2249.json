@@ -1,0 +1,19 @@
+[
+  {
+    "_id": "be46f9a0-0cb0-11e8-88ba-8d82bf9f2249",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Netflow: Overview",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"panelIndex\":\"12\",\"gridData\":{\"x\":0,\"y\":2,\"w\":4,\"h\":2,\"i\":\"12\"},\"id\":\"de9da770-2fcb-11e7-8df8-b363df28ab61\",\"type\":\"visualization\",\"version\":\"6.1.1\"},{\"panelIndex\":\"13\",\"gridData\":{\"x\":4,\"y\":2,\"w\":4,\"h\":2,\"i\":\"13\"},\"id\":\"23d6dc80-2fd6-11e7-bc99-41245d9394f2\",\"type\":\"visualization\",\"version\":\"6.1.1\"},{\"panelIndex\":\"14\",\"gridData\":{\"x\":8,\"y\":2,\"w\":4,\"h\":2,\"i\":\"14\"},\"id\":\"8dcbcce0-2fd6-11e7-a82c-3146dd695923\",\"type\":\"visualization\",\"version\":\"6.1.1\"},{\"panelIndex\":\"15\",\"gridData\":{\"x\":4,\"y\":4,\"w\":4,\"h\":2,\"i\":\"15\"},\"id\":\"69f864d0-2fd7-11e7-97a8-85d8d5a99269\",\"type\":\"visualization\",\"version\":\"6.1.1\"},{\"panelIndex\":\"17\",\"gridData\":{\"x\":0,\"y\":0,\"w\":12,\"h\":2,\"i\":\"17\"},\"id\":\"26e166f0-2fe2-11e7-9d02-3f49bde5c1d5\",\"type\":\"visualization\",\"version\":\"6.1.1\"},{\"panelIndex\":\"21\",\"gridData\":{\"x\":8,\"y\":4,\"w\":4,\"h\":2,\"i\":\"21\"},\"id\":\"b88a8790-2fd7-11e7-bd03-932d3e38a4ff\",\"type\":\"visualization\",\"version\":\"6.1.1\"},{\"panelIndex\":\"23\",\"gridData\":{\"x\":0,\"y\":4,\"w\":4,\"h\":2,\"i\":\"23\"},\"id\":\"97f430b0-622e-11e7-b0a5-e9bda2f6d168\",\"type\":\"visualization\",\"version\":\"6.1.1\"},{\"panelIndex\":\"24\",\"gridData\":{\"x\":0,\"y\":6,\"w\":4,\"h\":2,\"i\":\"24\"},\"id\":\"f6be96c0-622f-11e7-abbc-93bb293f5057\",\"type\":\"visualization\",\"version\":\"6.1.1\"},{\"panelIndex\":\"26\",\"gridData\":{\"x\":0,\"y\":8,\"w\":4,\"h\":2,\"i\":\"26\"},\"type\":\"visualization\",\"id\":\"64b144f0-658e-11e7-bfc3-d74b7bb89482\",\"version\":\"6.1.1\"},{\"panelIndex\":\"27\",\"gridData\":{\"x\":4,\"y\":6,\"w\":4,\"h\":2,\"i\":\"27\"},\"type\":\"visualization\",\"id\":\"a4ade270-658e-11e7-bfc3-d74b7bb89482\",\"version\":\"6.1.1\"},{\"panelIndex\":\"29\",\"gridData\":{\"x\":8,\"y\":6,\"w\":4,\"h\":2,\"i\":\"29\"},\"type\":\"visualization\",\"id\":\"3026fe40-658f-11e7-bfc3-d74b7bb89482\",\"version\":\"6.1.1\"}]",
+      "optionsJSON": "{\"darkTheme\":false,\"useMargins\":false}",
+      "uiStateJSON": "{}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[],\"highlightAll\":true,\"version\":true,\"query\":{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\",\"default_field\":\"*\"}},\"language\":\"lucene\"}}"
+      }
+    }
+  }
+]

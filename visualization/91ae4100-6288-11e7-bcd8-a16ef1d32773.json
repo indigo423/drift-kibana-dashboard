@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "91ae4100-6288-11e7-bcd8-a16ef1d32773",
+    "_type": "visualization",
+    "_source": {
+      "title": "Netflow: Source Ports (bytes)",
+      "visState": "{\"title\":\"Netflow: Source Ports (bytes)\",\"type\":\"timelion\",\"params\":{\"expression\":\".es(index=\\\"netflow-*\\\", metric=\\\"sum:netflow.bytes\\\", split=\\\"netflow.src_port:10\\\", kibana=true).scale_interval(1s).fit(mode=scale).if(operator=\\\"lt\\\", if=0, then=0).trim(start=2,end=1).label(regex=\\\"^.* netflow.src_port:(.+) > .*$\\\", label=\\\"$1\\\").lines(width=1, stack=true, fill=1).yaxis(label=\\\"bytes / sec\\\", min=0)\",\"interval\":\"auto\"},\"aggs\":[],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":{\"query_string\":{\"query\":\"*\"}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    }
+  }
+]

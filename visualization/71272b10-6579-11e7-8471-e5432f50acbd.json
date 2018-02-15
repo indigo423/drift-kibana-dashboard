@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "71272b10-6579-11e7-8471-e5432f50acbd",
+    "_type": "visualization",
+    "_source": {
+      "title": "Netflow: Source Port Count",
+      "visState": "{\"title\":\"Netflow: Source Port Count\",\"type\":\"metric\",\"params\":{\"addLegend\":false,\"addTooltip\":true,\"fontSize\":\"32\",\"gauge\":{\"autoExtend\":false,\"backStyle\":\"Full\",\"colorSchema\":\"Green to Red\",\"colorsRange\":[{\"from\":0,\"to\":100}],\"gaugeColorMode\":\"None\",\"gaugeStyle\":\"Full\",\"gaugeType\":\"Metric\",\"invertColors\":false,\"labels\":{\"color\":\"black\",\"show\":true},\"orientation\":\"vertical\",\"percentageMode\":false,\"scale\":{\"color\":\"#333\",\"labels\":false,\"show\":false,\"width\":2},\"style\":{\"bgColor\":false,\"bgFill\":\"#000\",\"fontSize\":\"36\",\"labelColor\":false,\"subText\":\"\"},\"type\":\"simple\",\"useRange\":false,\"verticalSplit\":false},\"handleNoResults\":true,\"type\":\"gauge\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"netflow.src_port\",\"customLabel\":\"Source Ports\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\n  \"vis\": {\n    \"defaultColors\": {\n      \"0 - 100\": \"rgb(0,104,55)\"\n    }\n  }\n}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"660dcaa0-0c35-11e8-88ba-8d82bf9f2249\",\"query\":{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    }
+  }
+]
